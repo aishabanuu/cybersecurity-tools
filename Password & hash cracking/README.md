@@ -1,11 +1,11 @@
-# 🔐 Password & Hash Cracking — Testing Password Security
+# Password & Hash Cracking — Testing Password Security
 
 > Notes, experiments, and tool references for understanding how passwords are cracked
 > and how to defend against it. All practice done in legal, isolated lab environments.
 
 ---
 
-## 📌 What is Password Cracking?
+## What is Password Cracking?
 
 Password cracking is the process of recovering passwords from stored hashes.
 Systems never store your actual password — they store a **hash** (a fixed-length fingerprint).
@@ -23,7 +23,7 @@ When you log in, the system hashes what you type and compares it to the stored h
 
 ---
 
-## 🧰 Tools Covered
+## Tools Covered
 
 | Tool | Type | Best For |
 |------|------|----------|
@@ -33,7 +33,7 @@ When you log in, the system hashes what you type and compares it to the stored h
 
 ---
 
-## 🗂️ Folder Structure
+## Folder Structure
 
 ```
 password-hash-cracking/
@@ -64,7 +64,7 @@ password-hash-cracking/
 
 ---
 
-## ⚙️ Lab Setup (Do This First)
+## Lab Setup (Do This First)
 
 ### 1. Update Kali
 ```bash
@@ -114,7 +114,7 @@ sudo apt install john hashcat hydra -y
 
 ---
 
-## 🛡️ Defensive Takeaways
+## Defensive Takeaways
 
 - Never store passwords as plain MD5 or SHA1 — use **bcrypt**, **Argon2**, or **scrypt**
 - Always use **salting** to prevent rainbow table attacks
@@ -124,12 +124,8 @@ sudo apt install john hashcat hydra -y
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 All experiments are performed on **personal VMs and intentionally vulnerable machines**
 (Metasploitable2, local hashes). Never attempt these techniques on systems you do not
 own or have explicit written permission to test.
-
----
-
-*Last updated: June 2026*
