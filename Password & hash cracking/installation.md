@@ -1,4 +1,4 @@
-# 🔧 John the Ripper — Installation
+# John the Ripper — Installation
 
 ## Step 1 — Check if already installed
 ```bash
