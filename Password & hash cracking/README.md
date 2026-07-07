@@ -96,7 +96,7 @@ sudo apt install john hashcat hydra -y
 
 ---
 
-## 🔑 Common Hash Types
+## Common Hash Types
 
 | Hash | Example | Length |
 |------|---------|--------|
