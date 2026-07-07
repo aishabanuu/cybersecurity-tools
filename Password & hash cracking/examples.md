@@ -1,4 +1,4 @@
-# 🧪 John the Ripper — Experiments
+# John the Ripper — Experiments
 
 > All experiments are done in `~/password-labs/john/` on your local Kali machine.
 
