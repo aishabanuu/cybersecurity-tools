@@ -1,4 +1,4 @@
-# ⌨️ John the Ripper — Commands
+# John the Ripper — Commands
 
 ## Basic Syntax
 ```bash
