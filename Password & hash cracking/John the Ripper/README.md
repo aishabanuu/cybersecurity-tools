@@ -1,11 +1,11 @@
-# 🗡️ John the Ripper
+# John the Ripper
 
 > John the Ripper (JtR) is one of the most popular offline password crackers.
 > It automatically detects hash types and supports wordlist, brute-force, and rule-based attacks.
 
 ---
 
-## 📋 Quick Summary
+## Quick Summary
 
 | Item | Detail |
 |------|--------|
@@ -17,7 +17,7 @@
 
 ---
 
-## 📁 Files in This Folder
+## Files in This Folder
 
 | File | Contents |
 |------|----------|
@@ -28,7 +28,7 @@
 
 ---
 
-## ⚡ Quickstart
+## Quickstart
 
 ```bash
 # Create a test MD5 hash
