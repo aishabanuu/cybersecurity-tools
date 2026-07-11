@@ -1,4 +1,4 @@
-# 📝 John the Ripper — Notes & Lessons Learned
+# John the Ripper — Notes & Lessons Learned
 
 ## Key Concepts
 
